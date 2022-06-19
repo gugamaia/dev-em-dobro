@@ -1,0 +1,26 @@
+html{
+    background-color: #666;
+    font-size: 32px;
+}
+/* Quando não setamos, por padrão o tamanho da fonte será 16px, o que equivale 1 em */
+/* rem = rooth em . Bootsrap já utiliza o REM*/
+
+body {
+    background-color: blueviolet;
+    width: 50%;
+    font-size: 1eem; /* Ao determinarmos um valor superior, ele irá multiplicar o padrão por 2 */
+}
+
+.pai{
+    background-color: #ea80fc;
+    width: 50%; /* Aqui, vamos ocupar metade da área de largura informada no body */
+    font-size: 1.5rem;
+}
+
+.filho {
+    background-color: #1de9b6;
+    width: 75%; /* Aqui, vamos ocupar X% da área de largura informada no Pai */
+    font-size: 0.5rem;
+}
+
+/* 1 em é = 16 pixels */

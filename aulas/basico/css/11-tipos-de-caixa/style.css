@@ -1,0 +1,15 @@
+h1{
+    display: inline;
+}
+
+p{
+    display: block;
+}
+
+span {
+    color: darkgreen;
+}
+
+a{
+    color: rgb(199, 32, 149);
+}

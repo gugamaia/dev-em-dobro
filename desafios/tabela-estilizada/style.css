@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    
+}
+
+table{
+    width: 35%;
+    margin-bottom : .5em;
+    table-layout: auto;
+    color: #fff;
+}
+
+.moda {
+    background-color: #bb86fc;
+}
+
+.casa {
+    background-color: #00c4b4;
+}
+
+tr {
+    background-color: #424250;
+}
