@@ -1,0 +1,23 @@
+/* ------------- Efeito Cascata ------------- */
+
+/* .container-cascata{
+    background-color: blueviolet;
+}
+
+.container-cascata{
+    background-color: red;
+} */
+
+/*  ------------- Especifidade ------------- */
+
+p{
+    background-color: lightskyblue;
+}
+
+/* .container-especifidade{
+    background-color: chartreuse;
+} */
+
+/* #meu-parafrafo{
+    background-color: violet;
+} */
