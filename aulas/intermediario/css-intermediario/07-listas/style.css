@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* list-style-type: circle; */
+    /* list-style-image: url(./img/icone.png); */
+    list-style: square inside url('./img/icone.png');
+    background-color: lightgrey;
+}
+
+ul li {
+    border: 2px solid white;
+    padding: 4px;
+}
+
+ol{
+    list-style: disc inside url('./img/icone.png');
+    background-color: purple;
+}
+
+ol li {
+    border: 2px solid white;
+    padding: 4px;
+}
