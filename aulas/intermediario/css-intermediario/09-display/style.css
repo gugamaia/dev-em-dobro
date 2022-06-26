@@ -34,6 +34,7 @@ ul {
 
 .esconder {
     display: none;
+    /* o display none só vai esconder da visibilidade, porém, irá ser visível no html */
     background: aqua;
     width: 100px;
     height: 100px;
