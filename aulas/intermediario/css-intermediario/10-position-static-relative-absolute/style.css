@@ -14,17 +14,32 @@
 
 .elemento-estatico{
     position: static;
-    background-color: red;
+    background-color: crimson;
 }
 
-/* .elemento-relativo {
+.elemento-relativo {
     position: relative;
-    background-color: coral;
-    <!-- margin-left: 100px; -->
-} */
+    background-color: blue;
+    margin-left: 100px;
+}
 
-/* .elemento-absoluto {
+.elemento-absoluto {
     position: absolute;
+    /* ao colocar um elemento absoluto, vamos destacar ele das demais camadas, irá se sobrepor ao elemento que virá logo após ele. */
     background-color: darkgreen;
-} */
+    margin-left: 240px; /* ao colocar a margin, revelamos o elemento que estava por trás do absoluto. */
+}
 
+.elemento-relativo-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 222, 213);
+}
+
+.elemento-absoluto-com-pai {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+}
