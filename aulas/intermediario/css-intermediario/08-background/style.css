@@ -18,11 +18,22 @@ p {
     height: 340px;
 }
 
-/* .bg-repeat {
+.bg-repeat {
     background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 540px;
+}
+
+/* .bg-fixed {
+    background-attachment:;
     height: 540px;
 } */
 
-/* .bg-cover {
-
+/* .bg-position {
+    background-position: left;
+    height: 540px;
 } */
