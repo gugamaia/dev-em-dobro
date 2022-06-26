@@ -16,14 +16,23 @@ ul {
     background: aqua;
     margin-bottom: 10px;
     width: 100px;
+    /* por padrão, o display já é block, fica redundante passar o valor novamente */
 }
 
-/* .em-linha li {
+.em-linha li {
     display: inline;
+    /* Display inline não te permite determinar largura, independente se passe em PX, %... */
     background: aqua;
-} */
+}
 
-/* .em-linha-e-bloco li {
+.em-linha-e-bloco li {
     display: inline-block;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+/* .esconder {
+    display: none;
 } */
 
