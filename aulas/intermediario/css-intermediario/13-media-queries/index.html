@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="logo">Menu</h1>
+      <nav>
+        <ul>
+          <li><a href="#quem-somos.html">Quem somos</a></li>
+          <li><a href="#onde-estamos.html">Onde estamos</a></li>
+          <li><a href="#contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="painel">
+        <div class="info">
+          <h1>Batman Dark Knight</h1>
+          <p>
+            Com a ajuda de Jim Gordon e Harvey Dent, Batman tem mantido a ordem
+            na cidade de Gotham. Mas um jovem e anárquico criminoso conhecido
+            como Coringa ganha força e decide instaurar um verdadeiro caos na
+            cidade.
+          </p>
+
+          <p>
+            O justiceiro será testado psicologicamente e fisicamente como nunca
+            fora antes em um confronto bastante pessoal. Cabe a Batman encontrar
+            uma maneira de deter o sádico vilão antes que mais vidas sejam
+            perdidas.
+          </p>
+        </div>
+
+        <div class="image">
+          <picture>
+            <source
+              srcset="../12-responsividade/images/batman-pequena.jpg"
+              media="(max-width: 600px)"
+            />
+
+            <img src="../12-responsividade/images/batman.jpg" alt="batman dark knight" />
+          </picture>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
