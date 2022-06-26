@@ -32,7 +32,10 @@ ul {
     height: 100px;
 }
 
-/* .esconder {
+.esconder {
     display: none;
-} */
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
 
