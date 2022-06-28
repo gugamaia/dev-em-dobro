@@ -6,9 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos - Parte 2</title>
 
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Videos - Parte 2</h1>
+    
+    <!-- <video src="./videos/video.mp4" width="400" controls muted loop poster="./images/thumb.jpg"></video> -->
+
+    <div class="videos-internos">
+        <video controls width="400" muted>
+        <source src="./videos/video.mp4" type="video/mp4">
+        <source src="./videos/video.ogv" type="video/ogg">
+        <source src="./videos/video.webm" type="video/webm">
+        <source src="./videos/video.avi" type="video/avi">
+
+        <p>Este navegador não possui superte para esta TAG de vídeo, por favor, tente abrir em outro navegador que suporte.</p>
+    </video>
+    </div> <br/>
+
+    <div class="videos-externos">
+                    
+            <iframe width="500" height="300"  src="https://www.youtube.com/embed/YTBYZULhm-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <p>Aqui, teremos o link externo para vídeos que já estão hospetados em plataformas (Youtube/vimeo).</p>
+
+    </div>
+
 </body>
 </html>
