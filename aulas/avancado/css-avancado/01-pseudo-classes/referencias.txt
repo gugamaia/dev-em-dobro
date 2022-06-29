@@ -1,0 +1,83 @@
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
+
+
+Pseudo-classes
+Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, :hover pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele.
+
+/*Qualquer botão sobre o qual o ponteiro do usuário esteja passando sobre*/
+button:hover {
+  color: blue;
+}
+Copy to Clipboard
+Pseudo-classes permitem que você aplique um estilo a um elemento não apenas em relação ao conteúdo da árvore do documento, mas também em relação a fatores externos como o histórico de navegação (:visited, por exemplo), o status do seu conteúdo (como :checked em certos elementos de um formulário), ou a posição do mouse (como :hover, que permite saber se o mouse está sobre um elemento ou não).
+
+Observação: Diferentemente das pseudo-classes, pseudo-elementos podem ser usados para estilizar uma parte específica de um elemento.
+
+Sintaxe
+seletor:pseudo-classe {
+  propriedade: valor;
+}
+Assim como nas classes regulares, você pode encadear juntas quantas pseudo-classes você desejar em um seletor.
+
+Índice de pseudo-classes padrão
+:active
+:checked
+:default (en-US)
+:dir() (en-US)
+:disabled
+:empty
+:enabled
+:first (en-US)
+:first-child
+:first-of-type
+:fullscreen
+:focus
+:hover
+:indeterminate (en-US)
+:in-range (en-US)
+:invalid
+:lang() (en-US)
+:last-child
+:last-of-type
+:left (en-US)
+:link
+:not()
+:nth-child()
+:nth-last-child()
+:nth-last-of-type() (en-US)
+:nth-of-type()
+:only-child
+:only-of-type
+:optional
+:out-of-range
+:read-only (en-US)
+:read-write
+:required
+:right (en-US)
+:root
+:scope (en-US)
+:target
+:valid
+:visited
+Especificações
+Especificação	Status	Comentário
+Fullscreen API	Padrão em tempo real	Define :fullscreen.
+HTML Living Standard	Padrão em tempo real	Nenhuma mudança de  HTML5.
+Selectors Level 4	Rascunho atual	Define :any-link, :local-link, :scope, :active-drop-target, :valid-drop-target, :invalid-drop-target, :current, :past, :future, :placeholder-shown, :user-error, :blank, :nth-match(), :nth-last-match(), :nth-column(), :nth-last-column(), e :matches().
+Nenhuma mudança significante das pseudo-classes definidas em Selectors Level 3 e HTML5 (embora o significado semântico que não foram retomadas).
+HTML5	Recomendação	Define o siginificado semântico no contexto do HTML :link, :visited, :active, :enabled, :disabled, :checked, e :indeterminate.
+Define :default, :valid, :invalid, :in-range, :out-of-range, :required, :optional, :read-only, :read-write, e :dir().
+CSS Basic User Interface Module Level 3	Recomendação	Define :default, :valid, :invalid, :in-range, :out-of-range, :required, :optional, :read-only, e :read-write, mas sem associar significado semântico.
+Selectors Level 3	Recomendação	Define :target, :root, :nth-child(), :nth-last-of-child(), :nth-of-type(), :nth-last-of-type(), :last-child, :first-of-type, :last-of-type, :only-child, :only-of-type, :empty, e :not().
+Denife a sintaxe de :enabled, :disabled, :checked, e :indeterminate, mas sem o significado semântico associado. Nenhuma mudança significativa, para as pseudo-classes definidas em CSS Level 2 (Revision 1).
+CSS Level 2 (Revision 1)	Recomendação	Define :lang(), :first-child, :hover, e :focus.
+Nenhuma mudança significativa, para as pseudo-classes definidas emCSS Level 1.
+CSS Level 1	Recomendação	Define :link, :visited, e :active, mas sem o significado semântico associado.
+Veja também
+pseudo-elements
+Found a problem with this page?
+Edit on GitHub
+Source on GitHub
+Report a problem with this content on GitHub
+Want to fix the problem yourself? See our Contribution guide.
+Last modified: 19 de ago. de 2021, by MDN contributors

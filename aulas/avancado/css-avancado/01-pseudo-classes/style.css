@@ -1,0 +1,32 @@
+/* 
+seletor:pseudo-classe{
+    propriedade: valor;
+} */
+
+p:first-child{
+    color: green;
+}
+
+p:last-child{
+    color: blueviolet;
+}
+
+p:not(.padrao){
+    color: yellow;
+}
+
+li:nth-child(odd){
+    color: red;
+}
+/* para estilizar os pares, alterar de odd para even, assim como colocar 2n, n+2... para definir uma padrão de itens que receberão este estilo.  
+
+nth-child(n+3):nth-child(-n+3) => dessa forma, irá estilizar do terceiro até o antepenúltimo
+*/
+
+.lastc:nth-last-child(1){
+    background-color: purple;
+}
+
+p:only-child{
+    background-color: orange;
+}
