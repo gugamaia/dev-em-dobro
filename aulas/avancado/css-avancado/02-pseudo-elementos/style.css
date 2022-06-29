@@ -1,0 +1,27 @@
+/* Anatomia do pseudo elemento */
+
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.first-letter::first-letter{
+    background-color: purple;
+    color: grey;
+}
+
+span::first-letter{
+    background-color: purple;
+    color: grey;
+} 
+/* não funciona com o spam, é preciso alterar o span para display: block*/
+
+
+.paragrafo::first-line{
+    background-color: grey;
+    color: green
+}
+
+li::marker{
+    color: red;
+    font-size:24px;
+}
