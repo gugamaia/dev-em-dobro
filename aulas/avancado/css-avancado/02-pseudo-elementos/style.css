@@ -25,3 +25,19 @@ li::marker{
     color: red;
     font-size:24px;
 }
+
+.imagem-antes-titulo::before{
+    content: "";
+    background: url(thumb.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
+
+.imagem-depois-titulo::after{
+    content: "";
+    background: url(thumb.jpg) center center no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
