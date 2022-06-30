@@ -12,12 +12,12 @@
     <h1>Seletores</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic animi dolores odit esse autem laboriosam et unde perspiciatis. Cum nihil iure dolores. Fuga, reprehenderit nesciunt. Tenetur animi corporis temporibus!</p>
 
-    <h2>Seleção com .classe</h2>
+    <h2>Estilização com .classe</h2>
     <span class="paragrafo">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, mollitia sequi, amet molestiae quam saepe, voluptates voluptas consequuntur earum laboriosam molestias rem qui quis quae ab aut at dolorum quo!
     </span>
 
-    <h2>Seleção com #id</h2>
+    <h2>Estilização com #id</h2>
     <nav id="menu">
         <ul>
             <li>Sobre</li>
@@ -27,5 +27,61 @@
         </ul>
     </nav>
 
+    <h2>Estilização com duas Classes</h2>
+        <h3 class="titulo vermelho">
+            Título 1
+        </h3>
+        <p>Incluindo duas classes no mesmo elemento, ou mais, nos permite criar estilizações específicas ao adicionar, no css, uma classe após a outra sem espaçamento.</p>
+        <ul class="twoClasses">
+            <li>.primeiraClasse.segundaClasse {<br/> estilo: valor;<br/>}</li>
+            <li>.primeiraClasse.outraClasse {<br/> estilo: outroValor;<br/>}</li>
+        </ul>
+        <h3 class="titulo laranja">
+            Título 2
+        </h3>
+        <p>Dessa forma, ao colocar alguma estilização para a primeiraClasse, será aplicada para todos.</p>
+        
+        <h2>Estilização com vírgula</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere, veritatis nostrum quis ad nihil eos architecto asperiores perferendis. Repudiandae amet voluptatum sunt pariatur. Harum provident nesciunt quo itaque nobis.</p>
+        <span>SPAM</span>
+
+        <h2>Estilização com classe filha</h2>
+        <section class="sobre">
+            <p class="texto">Para este formato de estilização, basta informarmos as duas classes em sequência com espaço simples entre elas. Conforme o exemplo</p>
+
+            <ul>
+                <li class="exemplo">.classePai .classe-filha{ <br/>estilo: paramentro;<br/> }</li>
+            </ul>
+        </section>
+
+        <h2>Estilização com seletor ></h2>
+        <div>
+            <p>Esta estilização, permite estilizar seletores específicos dentro de outros seletores. </p>
+            <p>Neste exemplo, estamos estilizando as tags "p" dentro da "div", já as outras tags, "ul"/"li"/"span", não irão receber os parâmentros setados. <br/> São consideradas filhas dentro da "div", porém, não foram selecionadas.</p>
+            <ul>
+                <li>seletor > outroSeletor {<br/>estilo: valor;<br/>}</li>
+                <li>Os outro seletores dentro do seletor pai, não irão receber o estilo, pois não foram selecionados.</li>
+            </ul>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nobis commodi voluptates perferendis officia sapiente recusandae quos sit? Consequatur vel rem aspernatur atque. Neque dignissimos minima deleniti sequi repudiandae maxime.</span>
+            <p>Estilizado pelo seletor</p>
+            <p>Estilizado pelo seletor</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat. Deserunt, molestiae neque excepturi qui aliquam quae nostrum dolorum quasi unde sunt ducimus? Officia a, facilis voluptatibus sequi dolor expedita!</span>
+        </div>
+
+        <h2>Estilização com seletor +</h2>
+        <div>Agora vamos estilizar uma tag que vem logo após outra específica.</div>
+        <p>Vamos estilizar da seguinte forma</p>
+        <p>div + p {<br/> color: yellow;<br/>  background-color: black;<br/>}</p>
+        <p>Como estamos vendo, só o primeiro "p" foi estilizado com a cor amarela, estes dois próximos, não receberam esta estilização.</p>
+
+        <h2>Estilização com o atributo</h2>
+        <a href="/" target="_blank">Cliquei aqui</a>
+        <a href="/">Cliquei aqui</a>
+        <p>Agora vamos utilizar o atributo. </p>
+        <ul>
+            <li>a[target:_blank] {<br/> color: red;<br/>}</li>
+            <li>Somente o primeiro "Clique aqui" receberá esta cor.</li>
+            <li>Podemos passar o "href" como atributo, por exemplo.</li>
+        </ul>
 </body>
 </html>

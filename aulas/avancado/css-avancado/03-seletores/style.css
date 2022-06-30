@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+}
+
 h1{
     color: green;
 }
@@ -12,4 +16,53 @@ p{
 
 #menu {
     margin-left: 100px;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo.laranja{
+    color: orange;
+}
+
+p, span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: aquamarine;
+    background-color: black;
+}
+
+.exemplo{
+    font-size: 10px;
+}
+
+.twoClasses{
+    font-size: 12px;    
+}
+
+div > p {
+    color: purple;
+    background-color: lightgrey;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    margin-left: 30px;
+}
+
+div + p {
+    color: yellow;
+    background-color: black;
+}
+
+a[target="_blank"] {
+    color: red;
 }
