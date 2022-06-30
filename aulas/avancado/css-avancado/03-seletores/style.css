@@ -1,3 +1,15 @@
 h1{
     color: green;
 }
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragrafo {
+    background-color: lightblue;
+}
+
+#menu {
+    margin-left: 100px;
+}
