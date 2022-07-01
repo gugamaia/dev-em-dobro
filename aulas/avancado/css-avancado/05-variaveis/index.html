@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variáveis</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Variáveis</h1>
+
+    <ul>
+      <li>No Opera mini e IE não tem suporte para utilizar variáveis.</li>
+    </ul>
+
+    <h2>Titulo 2</h2>
+    <h3>Título 3</h3>
+    <p>Texto do p</p>
+    <span>texto do span</span>
+
+    <div>
+      <ul>
+        <li>
+          :root{<br />
+          --cor-padrao: purple;<br />
+          --tamanho-de-fonte-padrão: 32px;<br />
+          }
+        </li>
+        <br />
+        <li>
+          h2{<br />
+          color: var(--cor-padrao, blue);<br />
+          font-size: var(--tamanho-de-fonte-padrão, 20px);<br />
+          }
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
