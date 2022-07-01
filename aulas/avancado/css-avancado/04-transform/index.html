@@ -12,5 +12,38 @@
     <h1>Transform</h1>
     <h3>Aplicando transformações com transform</h3>
 
+    <div class="escala">
+        <h2>1- Transform Scale</h2>
+        <p>Utilizando o Scale, podemos determinar que a imagem seja multiplicada pelos valores passados, sendo para os eixos X e Y. o primeiro exemplo, informamos em único código, nos exemplos 2 e 3, passamos um por vez.</p>
+        <ul>
+            <li>img.scale{<br/>transform: scale(2, 3); <br/>}</li>
+            <li>img.scale{<br/>transform: scaleX(2); <br/>}</li>
+            <li>img.scale{<br/>transform: scaleY(3); <br/>}</li>
+        </ul>
+        <img src="3.jpg" alt="" class="scale">
+    </div>
+
+    <div class="rodar">
+        <h2>2- Transform Rotate</h2>
+        <p>Utilizando o Rotate, vamos informar o quanto queremos rotacionar a imagem, sempre sendo em degraus (deg). <br/> Podemos rotacionar em um dos eixos, porém não será tão exato, pois para rotacionar o correto é sobre os dois eixos </p>
+        <ul>
+            <li>img.scale{<br/>transform: rotate(90deg); <br/>}</li>
+            <li>img.scale{<br/>transform: rotateX(20deg); <br/>}</li>
+            <li>img.scale{<br/>transform: rotateY(15deg); <br/>}</li>
+        </ul>
+        <img src="3.jpg" alt="" class="rotate">
+    </div>
+
+    <div class="deslocar">
+        <h2>3- Transform Translate</h2>
+    <p>Utilizando Translate faz uma translação da imagem, em 2D. <br/> A imagem será deslocada para o ponto informado entre parênteses, podendo ser (X, Y) ou um por vez, ou somente 1. <br/> A unidade utilziada é "px" </p>
+    <ul>
+        <li>img.scale{<br/>transform: translate(100px, 15px); <br/>}</li>
+        <li>img.scale{<br/>transform: translateX(100px); <br/>}</li>
+        <li>img.scale{<br/>transform: translateY(15px); <br/>}</li>
+    </ul>
+    <img src="3.jpg" alt="" class="translate">
+    </div>
+    
 </body>
 </html>
