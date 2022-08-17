@@ -3,14 +3,12 @@ html {
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
-    background: #fff;
 }
 
 .header {
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,18 +16,12 @@ body {
 }
 
 .logo {
-    background-color: #fff;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
-    /* position: absolute;
-    left: 3.12%;
-    right: 93.71%;
-    top: 10.56%;
-    bottom: 79.58%; */
 }
 
 .logo h1 {
-    font-weight: 800;
     font-size: 2rem;
     margin-left: 5px;
 }
@@ -40,207 +32,24 @@ body {
 }
 
 .menu li a {
-    padding: 11px 6px;
+    padding: 10px 5px;
     transition: 0.3s ease-in-out;
 }
 
 .menu li:hover {
     background-color: #5bc241;
-    color: #fff;
+    border-radius: 1rem;
+    color: #ffffff;
 }
 
-/* 
-/* logo 
-     
+.menu li a.btn {
+    background-color: #5bc241;
+    border-radius: 1rem;
+    color: #ffffff;
+    margin-left: 1.5rem;
+    padding: 10px 20px;
+}
 
-    background: url(2.png); 
-    */
-
-/* thebank
-    Ag
-    Font
-    Public Sans
-    Weight
-    800
-    Size
-    20px
-    Line height
-    23.5px
-    color #000000
-*/
-
-
-/* thebank */
-
-
-/* 
-    position: absolute;
-    width: 80px;
-    height: 24px;
-    left: 95px;
-    top: 55px;
-
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 24px;
-
--   -identical to box height
-
-
-color: #000000;  
-*/
-
-/* 
-    /* Home 
-
-    position: absolute;
-    width: 42px;
-    height: 18px;
-    left: 869px;
-    top: 59px;
-
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height 
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-*/
-
-/* Fundo menu */
-
-
-position: absolute;
-width: 55px;
-height: 40px;
-left: 935px;
-top: 48px;
-
-background: #5BC241;
-
-
-/* Sobre */
-
-position: absolute;
-width: 42px;
-height: 18px;
-left: 941px;
-top: 59px;
-
-font-family: 'Public Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-/* Contato */
-
-
-position: absolute;
-width: 56px;
-height: 18px;
-left: 1013px;
-top: 59px;
-
-font-family: 'Public Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #000000;
-
-
-/* Blog */
-
-
-position: absolute;
-width: 33px;
-height: 18px;
-left: 1099px;
-top: 59px;
-
-font-family: 'Public Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #000000;
-
-/* Carreira */
-
-
-position: absolute;
-width: 57px;
-height: 18px;
-left: 1162px;
-top: 59px;
-
-font-family: 'Public Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #000000;
-
-
-/* Botão */
-
-
-position: absolute;
-width: 127px;
-height: 39px;
-left: calc(50% - 127px/2 + 602px);
-top: calc(50% - 39px/2 - 143.5px);
-
-background: #5BC241;
-border-radius: 10px;
-
-/* Cadastre-se */
-
-
-position: absolute;
-width: 85px;
-height: 18px;
-left: 1270px;
-top: 60px;
-
-font-family: 'Public Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
-
- */
+footer {
+    text-align: right;
+}
