@@ -1,20 +1,57 @@
-* {
-    padding: 0;
-    margin: 0;
+html {
+    font-size: 62.5%;
 }
 
 body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
     background: #fff;
 }
 
-/* logo 
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
 
-
-    position: absolute;
+.logo {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    /* position: absolute;
     left: 3.12%;
     right: 93.71%;
     top: 10.56%;
-    bottom: 79.58%; 
+    bottom: 79.58%; */
+}
+
+.logo h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    padding: 11px 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li:hover {
+    background-color: #5bc241;
+    color: #fff;
+}
+
+/* 
+/* logo 
+     
 
     background: url(2.png); 
     */
@@ -206,4 +243,4 @@ line-height: 18px;
 color: #FFFFFF;
 
 
-
+ */
