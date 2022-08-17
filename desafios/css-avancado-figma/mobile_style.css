@@ -1,0 +1,184 @@
+/* Rectangle 1 */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+/* logo */
+
+
+position: absolute;
+left: 20.27%;
+right: 67.73%;
+top: 6.25%;
+bottom: 88.5%;
+
+background: url(2.png);
+
+/* thebank */
+
+
+position: absolute;
+left: 34.4%;
+right: 22.93%;
+top: 5.88%;
+bottom: 88.25%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Home */
+
+
+position: absolute;
+left: 29.87%;
+right: 29.07%;
+top: 24.25%;
+bottom: 69.88%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+/* Fundo menu */
+
+
+position: absolute;
+left: 18.93%;
+right: 18.93%;
+top: 34.25%;
+bottom: 55.62%;
+
+background: #5BC241;
+
+
+/* Sobre */
+
+
+position: absolute;
+left: 29.87%;
+right: 29.07%;
+top: 36.38%;
+bottom: 57.75%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+/* Contato */
+
+
+position: absolute;
+left: 29.87%;
+right: 29.07%;
+top: 48.5%;
+bottom: 45.62%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+/* Blog */
+
+
+position: absolute;
+left: 29.07%;
+right: 29.87%;
+top: 60.62%;
+bottom: 33.5%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+
+/* Carreira */
+
+
+position: absolute;
+left: 29.87%;
+right: 29.07%;
+top: 72.75%;
+bottom: 21.38%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+/* Botão */
+
+
+position: absolute;
+left: 29.87%;
+right: 29.87%;
+top: 84.88%;
+bottom: 8.25%;
+
+background: #5BC241;
+border-radius: 10px;
+
+/* Cadastre-se */
+
+
+position: absolute;
+left: 36%;
+right: 35.73%;
+top: 86.75%;
+bottom: 10.12%;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
