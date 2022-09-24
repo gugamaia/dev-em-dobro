@@ -1,13 +1,54 @@
 html {
     font-size: 62.5%;
+    font-family: 'Public Sans', sans-serif;
 }
 
 body {
-    font-family: 'Public Sans', sans-serif;
     font-weight: 400;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
     text-align: right;
 }
 
+.paintings {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paintings .painting {
+    width: 355px;
+    height: 431px;
+    position: relative;
+}
+
+.paintings .painting img {
+    width: 100%
+}
+
+.paintings .painting .info-painting {
+    position: absolute;
+    /* background-color: rgb(34, 120, 248); */
+    color: #FFF;
+    bottom: 35px;
+    left: 20px;
+}
+
+.paintings .painting .info-painting .title {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.paintings .painting .info-painting .title .subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}

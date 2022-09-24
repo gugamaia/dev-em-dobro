@@ -1,0 +1,7 @@
+@media(max-width:1440px) {
+    .paintings {
+        width: 900px;
+        margin: 26px 0;
+        gap: 1px;
+    }
+}
